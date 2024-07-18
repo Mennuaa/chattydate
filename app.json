@@ -12,7 +12,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.menua.chattyapp",
+      "buildNumber": "2" 
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "64de2346-0952-49b1-a8cc-6f829746541c"
+      }
     }
   }
 }
