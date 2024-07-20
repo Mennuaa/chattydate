@@ -17,7 +17,7 @@ export default function ProfilePage() {
             style={{ marginTop: 100 }}
             to={{ screen: "Publications", params: { name: "Diana" } }}
           >
-            Publications!
+            Publications!!
           </Link>
         </View>
       </ScrollView>
